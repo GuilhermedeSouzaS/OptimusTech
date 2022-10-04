@@ -1,0 +1,179 @@
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    text-align: center;
+    margin: 6em auto;
+
+}
+
+.apresentacao__sobre {
+    font-weight: 600;
+    color: var(--vinho);
+
+}
+
+.apresentacao__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    padding: .8em 0;
+
+}
+
+.dados {
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.dados__lista {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.dados__item {
+    margin: 1em;
+}
+
+.dados__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vinho);
+
+}
+
+.dados__subti {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1em 0;
+    color: var(--cinza-escuro);
+
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 12em;
+
+}
+
+.vagas__intro {
+    text-align: center;
+
+}
+
+.vagas__abertas {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vinho);
+
+}
+
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    padding: 1em 0;
+
+}
+
+.vagas__texto {
+    font-size: 20px;
+
+}
+
+.vagas__imagem {
+    margin: 5em 0;
+
+}
+
+.vagas__area {
+    display: grid;
+    row-gap: 4em;
+    padding-bottom: 7em;
+    margin: 0 auto 0 20em;
+
+}
+
+.vagas__nome {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+
+}
+
+.vagas__lista {
+    display: grid;
+    row-gap: 2em;
+    padding: 0 0 3em 2em;
+
+}
+
+.vagas__item--titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+
+}
+
+.lista__lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.vagas__item {
+    font-weight: 500;
+
+}
+
+.opiniao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10em;
+
+}
+
+.opiniao__intro {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho);
+
+}
+
+.opiniao__titulo {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    padding: 1em 0;
+
+}
+
+.opiniao__foto {
+    width: 56px;
+    height: 56px;
+
+}
+
+.opiniao__nome {
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    padding: 1em 0;
+
+}
+
+.opiniao__cargo {
+    font-size: 14px;
+    color: var(--cinza);
+
+}
